@@ -11,5 +11,7 @@ namespace NetflixWebApi.Model
         public string title { get; set; }
         public string overview { get; set; }
         public string imdb_rating { get; set; }
+        public string content_type { get; set; }
+        public string contentID { get; set; }
     }
 }
